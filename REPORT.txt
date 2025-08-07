@@ -1,0 +1,61 @@
+Image Captioning & segmentation - ZIDIO INTERNSHIP PROJECT.
+
+About ImagEase Project-
+IMAGEASE : it detects the images and provide suitable captions based on the image 
+as well as bounds the objects detected in an image with a square.
+Date: 7th August 2025
+Author: Ruhin Chhipa
+
+
+
+------------------------------------------
+📁 Project Structure:
+------------------------------------------
+- core/         -> it contains 2 files one is for captioing logic and other for segmentation logic.
+- Demo_of_project.ipynb   → Jupyter Notebook for testing BLIP-based image captioning
+- demo_images/            → Folder containing test images
+- main.py (optional)       → (If present) For Streamlit app display
+- report.txt              → This file (Project summary)
+
+
+
+------------------------------------------
+📌 Summary:
+------------------------------------------
+This project is a basic image captioning demo using the BLIP (Bootstrapping Language-Image Pre-training) model from HuggingFace Transformers.
+
+The notebook demonstrates:(it is just a demo of my pratcice project not org)
+- Loading the BLIP processor and model
+- Reading images from a folder
+- Generating captions for each image
+- Displaying image with caption
+
+
+
+------------------------------------------
+🛠️ Libraries Used:
+------------------------------------------
+- transformers
+- torch
+- pillow
+- IPython.display
+- os / shutil
+
+
+
+------------------------------------------
+📋 Notes:
+------------------------------------------
+- Images must be in JPG/JPEG/PNG format.
+- Folder path must exist, otherwise FileNotFoundError will occur.
+- Notebook tested and working locally.
+- This is a practice file, not the final version.
+
+
+
+------------------------------------------
+✅ Next Steps:
+------------------------------------------
+- Add image segmentation overlay
+- Create Streamlit interface (optional)
+- Improve caption diversity by adding randomness (sampling techniques)

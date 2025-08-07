@@ -1,0 +1,9 @@
+transformers
+torch
+pillow
+matplotlib
+ipywidgets
+streamlit
+numpy
+jupyter
+ipython
