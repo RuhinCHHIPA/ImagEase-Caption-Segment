@@ -1,23 +1,31 @@
-🌟 ImgEase: AI-Powered Image Captioning & Segmentation.
+# 🧠 ImgEase: AI-Powered Image Captioning & Segmentation
 
-ImgEase is your all-in-one beginner-friendly AI tool that can generate captions for images and simulate basic image segmentation – all through a smooth, clean web interface.
-Whether you upload your own image or test with demo images, this project makes image understanding super easy and fun!
+A simple yet powerful Streamlit app that lets you **generate captions** for images and visualize **basic image segmentation** using AI. Upload your own image or try one of the built-in demo images!
 
+---
 
-🚀 Key Features:
-    📸 Auto-Captioning using BLIP model (Salesforce/blip-image-captioning-base)
-    ✏️ Simple Image Segmentation (simulated bounding boxes
-    🧠 Powered by Transformers, PyTorch, and PIL
-    🖼️ Try with your own images or use demo samples
-    ⚡ Built with Streamlit – quick, interactive & beautiful
-    📒 Bonus: Jupyter Notebook for experiments included.
+## 🚀 Features
 
+- 🤖 **AI-based Captioning** using BLIP model (Salesforce)
+- 🧩 **Simulated Segmentation** with bounding boxes
+- 🖼️ Upload your **own images**
+- 🔍 Try with **demo images** if you don’t have any
+- ⚡ Built with **Streamlit**, **HuggingFace Transformers**, and **PyTorch**
 
-  🧰 Tech Stack:
-    Python
-    HuggingFace Transformers
-    PyTorch
-    Pillow (PIL)
-    Streamlit
-    Jupyter Notebook
-    Matplotlib, NumPy, IPyWidgets  
+---
+
+## 🎮 How to Use
+
+1. Clone the repo or open the app in Streamlit
+2. Upload your own image **OR** click "Try Demo"
+3. View the **generated caption**
+4. See the **segmentation visualization**
+
+---
+
+## 📦 Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
