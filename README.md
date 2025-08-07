@@ -1,4 +1,4 @@
-# 🧠 ImgEase: AI-Powered Image Captioning & Segmentation
+# 🧠 ImagEase: AI-Powered Image Captioning & Segmentation
 
 A simple yet powerful Streamlit app that lets you **generate captions** for images and visualize **basic image segmentation** using AI. Upload your own image or try one of the built-in demo images!
 
