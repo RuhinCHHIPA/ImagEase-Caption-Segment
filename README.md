@@ -3,7 +3,10 @@
 A simple yet powerful Streamlit app that lets you **generate captions** for images and visualize **basic image segmentation** using AI. Upload your own image or try one of the built-in demo images!
 
 ---
+## 🚀 Try the Live App  
+[👉 Click here to open ImageEase](https://imagease.streamlit.app/)
 
+---
 ## 🚀 Features
 
 - 🤖 **AI-based Captioning** using BLIP model (Salesforce)
