@@ -1,5 +1,4 @@
 transformers
-torch
 pillow
 matplotlib
 ipywidgets
@@ -7,3 +6,5 @@ streamlit
 numpy
 jupyter
 ipython
+torch==2.1.0
+torchvision==0.16.0
